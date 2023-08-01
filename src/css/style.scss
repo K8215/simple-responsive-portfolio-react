@@ -1,0 +1,67 @@
+@import "utilities/variables";
+@import "utilities/mixins";
+@import "base/fonts";
+@import "base/reset";
+@import "layout/header";
+@import "layout/main";
+@import "layout/hero";
+@import "layout/footer";
+@import "components/skip-link";
+@import "components/menu-toggler";
+@import "components/btn";
+@import "components/nav";
+@import "components/logo-grid";
+@import "components/portfolio";
+
+body {
+	.container {
+		margin: 0 auto;
+		max-width: 1180px;
+		padding: 0 15px;
+		width: 100%;
+	}
+
+	.split {
+		align-items: center;
+		display: flex;
+		gap: 100px;
+
+		> * {
+			flex-basis: 50%;
+			flex-grow: 1;
+
+			@include break(xl) {
+				flex-basis: 100%;
+				width: 100%;
+			}
+		}
+
+		@include break(xl) {
+			align-items: flex-start;
+			flex-direction: column;
+			gap: 0;
+
+			> :first-of-type {
+				margin: 0 0 50px;
+			}
+		}
+	}
+
+	.detail {
+		font-size: 1rem;
+		font-weight: bold;
+		margin: 0 0 1rem !important;
+
+		@include break(md) {
+			font-size: 0.95rem;
+		}
+	}
+
+	.section--dark {
+		background-color: $dark;
+
+		* {
+			color: $white;
+		}
+	}
+}
