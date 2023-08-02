@@ -87,11 +87,11 @@ a {
   transition: ease all 0.25s;
 }
 a:hover {
-  background: #2469ab;
+  background: #23272f;
   color: #fff;
 }
 a:focus, a:focus-visible {
-  outline: 5px solid #f06e54;
+  outline: 5px solid #037ea4;
 }
 
 ul,
@@ -191,7 +191,7 @@ section {
   color: #fff;
 }
 .header.js-scrolled a:hover {
-  color: #2469ab;
+  color: #23272f;
 }
 @media (max-width: 1200px) {
   .header {
@@ -218,7 +218,7 @@ section {
 
 .hero {
   align-items: center;
-  background: #2469ab;
+  background: #23272f;
   border: 0;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
           clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
@@ -236,7 +236,7 @@ section {
 }
 .hero__heading span {
   background: #fff !important;
-  color: #2469ab !important;
+  color: #23272f !important;
 }
 @media (max-width: 991px) {
   .hero__heading {
@@ -386,7 +386,7 @@ footer {
 }
 
 .btn {
-  background: #000;
+  background: #037ea4;
   border: none;
   color: #fff;
   display: block;
@@ -402,12 +402,12 @@ footer {
 }
 .btn:hover, .btn:focus, .btn:focus-within {
   opacity: 1;
-  background: #2469ab;
+  background: #23272f;
   color: #fff;
 }
 .btn--special:hover, .btn--special:focus, .btn--special:focus-within {
   background: #fff;
-  color: #2469ab;
+  color: #23272f;
 }
 @media (max-width: 576px) {
   .btn {
@@ -492,7 +492,7 @@ footer {
     visibility: hidden !important;
   }
   .nav__a:hover {
-    color: #2469ab;
+    color: #23272f;
   }
 }
 @media (max-width: 1200px) {
@@ -530,7 +530,7 @@ footer {
 
 .logo-grid {
   align-items: center;
-  color: #2469ab;
+  color: #23272f;
   display: grid;
   flex-wrap: wrap;
   font-size: 6.5rem;
@@ -583,7 +583,7 @@ footer {
 }
 .portfolio__caption {
   align-items: center;
-  background: #2469ab;
+  background: #23272f;
   color: #fff;
   display: flex;
   font-size: 1.5rem;
@@ -602,7 +602,7 @@ footer {
 }
 @media (max-width: 991px) {
   .portfolio__caption {
-    background: rgba(36, 105, 171, 0.75);
+    background: rgba(35, 39, 47, 0.75);
     opacity: 1;
   }
 }
@@ -660,7 +660,7 @@ body .detail {
   }
 }
 body .section--dark {
-  background-color: #2469ab;
+  background-color: #23272f;
 }
 body .section--dark * {
   color: #fff;
