@@ -4,7 +4,7 @@ import Home from "./routes/Home"
 function App() {
 	return (
 		<div className="App">
-			<BrowserRouter>
+			<BrowserRouter basename={'/projects/react-portfolio/'}>
 				<Routes>
 					<Route path="/" element={<Home />} />
 				</Routes>
