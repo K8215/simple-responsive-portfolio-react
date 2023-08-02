@@ -1,6 +1,6 @@
 # Simple Responsive Portfolio (React)
 
-A re-build of my static simple responsive portfolio project now with React.
+A re-build of my static simple responsive portfolio project now with React. See it in action [here](https://kaitlyncoleman.net/projects/react-portfolio).
 
 ## Features
 
