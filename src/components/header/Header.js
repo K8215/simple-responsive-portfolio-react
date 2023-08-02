@@ -1,4 +1,5 @@
 import { React, useState, useEffect } from "react"
+import { HashLink as Anchor } from "react-router-hash-link"
 import Nav from "./Nav"
 
 function Header() {
@@ -33,9 +34,9 @@ function Header() {
 			}`}
 		>
 			<div className="header__logo">
-				<a className="header__link" href="#top" aria-label="Return home">
+				<Anchor className="header__link" to="#top" aria-label="Return home">
 					Logo
-				</a>
+				</Anchor>
 			</div>
 
 			<button
