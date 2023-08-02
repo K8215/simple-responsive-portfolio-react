@@ -2,10 +2,6 @@
 
 A re-build of my static simple responsive portfolio project now with React.
 
-## Live Demo
-
-See the live demo [here](https://simple-responsive-portfolio-react.glitch.me/).
-
 ## Features
 
 - Fully responsive layout
