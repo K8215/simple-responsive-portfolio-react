@@ -1,6 +1,6 @@
 import React from "react";
 
-function Work() {
+export default function Work() {
   return (
     <section id="work">
       <div className="container">
@@ -18,7 +18,7 @@ function Work() {
             <img
               className="portfolio__img"
               src="https://placehold.co/350"
-              alt="#"
+              alt="portfolio item image"
               loading="lazy"
             />
             <figcaption className="portfolio__caption">
@@ -37,7 +37,7 @@ function Work() {
             <img
               className="portfolio__img"
               src="https://placehold.co/350"
-              alt="#"
+              alt="portfolio item image"
               loading="lazy"
             />
             <figcaption className="portfolio__caption">
@@ -56,7 +56,7 @@ function Work() {
             <img
               className="portfolio__img"
               src="https://placehold.co/350"
-              alt="#"
+              alt="portfolio item image"
               loading="lazy"
             />
             <figcaption className="portfolio__caption">
@@ -75,7 +75,7 @@ function Work() {
             <img
               className="portfolio__img"
               src="https://placehold.co/350"
-              alt="#"
+              alt="portfolio item image"
               loading="lazy"
             />
             <figcaption className="portfolio__caption">
@@ -94,7 +94,7 @@ function Work() {
             <img
               className="portfolio__img"
               src="https://placehold.co/350"
-              alt="#"
+              alt="portfolio item image"
               loading="lazy"
             />
             <figcaption className="portfolio__caption">
@@ -113,7 +113,7 @@ function Work() {
             <img
               className="portfolio__img"
               src="https://placehold.co/350"
-              alt="#"
+              alt="portfolio item image"
               loading="lazy"
             />
             <figcaption className="portfolio__caption">
@@ -132,7 +132,7 @@ function Work() {
             <img
               className="portfolio__img"
               src="https://placehold.co/350"
-              alt="#"
+              alt="portfolio item image"
               loading="lazy"
             />
             <figcaption className="portfolio__caption">
@@ -151,7 +151,7 @@ function Work() {
             <img
               className="portfolio__img"
               src="https://placehold.co/350"
-              alt="#"
+              alt="portfolio item image"
               loading="lazy"
             />
             <figcaption className="portfolio__caption">
@@ -170,7 +170,7 @@ function Work() {
             <img
               className="portfolio__img"
               src="https://placehold.co/350"
-              alt="#"
+              alt="portfolio item image"
               loading="lazy"
             />
             <figcaption className="portfolio__caption">
@@ -182,5 +182,3 @@ function Work() {
     </section>
   );
 }
-
-export default Work;

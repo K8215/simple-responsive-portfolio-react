@@ -1,0 +1,9 @@
+export { default as About } from "./About.jsx";
+export { default as Experience } from "./Experience.jsx";
+export { default as Footer } from "./Footer.jsx";
+export { default as Header } from "./Header.jsx";
+export { default as Hero } from "./Hero.jsx";
+export { default as Main } from "./Main.jsx";
+export { default as Nav } from "./Nav.jsx";
+export { default as Skills } from "./Skills.jsx";
+export { default as Work } from "./Work.jsx";
